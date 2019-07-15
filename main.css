@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 @media screen and (orientation: landscape){
-      }
      body {
         background-image: url('https://i.redd.it/ylubgrztirp11.jpg');
         background-attachment: fixed; 
@@ -28,8 +27,4 @@
 
 * {
     font-family: 'Press Start 2P', cursive;
-}
-
-.graybox {
-    style: "background-color:rgba(184, 188, 192, 0.5); text-align:left; vertical-align: middle; padding:20px 47px;"
 }
