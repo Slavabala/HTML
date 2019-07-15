@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
-@media screen and (orientation: landscape){
-     body {
-        background-image: url('https://i.redd.it/ylubgrztirp11.jpg');
-        background-attachment: fixed; 
-        }
-} 
 @media screen and (orientation: portrait ) {
     body { 
         background-image: url('Portrait_Background.png');
         background-attachment: fixed;
         }
 }
+@media screen and (orientation: landscape){
+     body {
+        background-image: url('https://i.redd.it/ylubgrztirp11.jpg');
+        background-attachment: fixed; 
+        }
+} 
+
 .center {
     text-align: center;
 }
