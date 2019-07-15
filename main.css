@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 @media screen and (orientation: landscape){
-    body {
-        background-image: url('https://i.redd.it/ylubgrztirp11.jpg'); 
-        }
+      }
+     body {
+        background-image: url('https://i.redd.it/ylubgrztirp11.jpg');
+        background-attachment: fixed; 
+        } 
     }
     
 @media screen and (orientation: portrait ) {
     body { 
-        background-image: url('https://i.pinimg.com/originals/c9/74/c5/c974c505d0db01a13219f548712ae9c0.png'); 
+        background-image: url('https://i.pinimg.com/originals/c9/74/c5/c974c505d0db01a13219f548712ae9c0.png');
+        background-attachment: fixed;
         }
     }
 .center {
     text-align: center;
 }
 
-.white {
-    color: white;
+#link {
+    color: ;
 }
 
 * {
@@ -25,4 +28,8 @@
 
 * {
     font-family: 'Press Start 2P', cursive;
+}
+
+.graybox {
+    style: "background-color:rgba(184, 188, 192, 0.5); text-align:left; vertical-align: middle; padding:20px 47px;"
 }
