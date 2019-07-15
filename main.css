@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
 @media screen and (orientation: landscape){
     body {
         background-image: url('https://i.redd.it/ylubgrztirp11.jpg'); 
@@ -22,5 +24,5 @@
 }
 
 * {
-    font-family: consolas
+    font-family: 'Press Start 2P', cursive;
 }
