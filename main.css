@@ -1,10 +1,10 @@
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (min-width: 1920px) {
     body {
         background-image: url('https://i.imgur.com/GRvLnQz.png'); 
         }
     }
     
-    @media screen and (orientation: portrait) {
+@media screen and (orientation: portrait )/* and (min-width: 1080px) */{
     body { 
         background-image: url('https://i.pinimg.com/originals/c9/74/c5/c974c505d0db01a13219f548712ae9c0.png'); 
         }
@@ -15,4 +15,11 @@
 
 .white {
     color: white;
+}
+* {
+    color: white;
+}
+
+* {
+    font-family: consolas
 }
