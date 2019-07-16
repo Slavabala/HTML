@@ -41,11 +41,11 @@
     border-radius: 4px;
   }
   #toTop:hover {
-    background-color: rgba(65, 65, 65, 0.6);
+    background-color: rgba(65, 65, 65, 0.7);
   }
   .navbar {
     overflow: hidden;
-    background-color:rgba(184, 188, 192, 0.5);
+    background-color:rgba(184, 188, 192, 0.7);
   }
   
   .navbar a {
@@ -74,13 +74,13 @@
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(184, 188, 192, 0.5);
+    background-color: rgba(184, 188, 192, 0.7);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -96,7 +96,7 @@
   }
   
   .dropdown-content a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .dropdown:hover .dropdown-content {
