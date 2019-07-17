@@ -136,3 +136,14 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  b {
+    border-bottom:3px solid #ffffff;
+    position:relative;
+    top:-.5em;
+}
+b span {
+    position:relative;
+    top:.5em;
+    font-weight:normal;
+}
