@@ -4,13 +4,47 @@
         background-image: url('Portrait_Background.png');
         background-attachment: fixed;
         }
+        #myVideo1 {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            z-index: -1;
+          }
+          #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            z-index: -2;
+            visibility: hidden;
+          }
 }
 
 @media screen and (orientation: landscape) {
      body {
-        background-image: url('https://i.redd.it/ylubgrztirp11.jpg');
+        background-image: url('Landscape_wallpaper.jpg');
         background-attachment: fixed; 
         }
+        #myVideo1 {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%; 
+            z-index: -2;
+            visibility: hidden; 
+          }
+          #myVideo {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%; 
+            z-index: -1;
+          }
 } 
 
 .center {
